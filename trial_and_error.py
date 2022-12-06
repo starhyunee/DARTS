@@ -1,5 +1,7 @@
 # 프로젝트를 진행하면서 겪은 시행착오들 
 # pytorch에 익숙해지기 위해 이것저것 시도해본것
+# resnet을 구현해보고 cifar10 dataset으로 정확도를 측정해보았으나 
+# 특정 class에서 비정상적으로 낮은 정확도를 보였음.
 # tutorial을 그대로 따라해본 것도 있고 스스로 코딩해본 것도 있음
 # colab으로 코딩한 것
 import torch.nn as nn
