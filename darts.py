@@ -315,10 +315,8 @@ class Network(nn.Module):
         logits = self(X)
         return self.criterion(logits, y)
 
-  # concat all intermediate nodes 코드를 구현해야하는데 
-  # 도저히 모르겠다...
+  # concat all intermediate nodes 코드를 구현해야함
   # def genotype(self):
-  #   def _parse(weights):
  
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
